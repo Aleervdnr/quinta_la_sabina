@@ -112,7 +112,11 @@ body{
     margin-top: 50px;
 }
 
-.section__h3::before, .contacto__h3::before{
+.section__h3{
+    border-bottom: 1px solid var(--verde);
+    padding-bottom: 5px;
+}
+.contacto__h3::before{
     content: "";
     position: absolute;
     width: 120px;
