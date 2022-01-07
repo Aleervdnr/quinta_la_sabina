@@ -126,6 +126,13 @@
     "a b c";
 }
 
+.ubication__flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
 .footer__container{
     display: flex;
     flex-direction: column;
