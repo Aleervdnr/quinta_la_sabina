@@ -191,6 +191,10 @@ body{
     text-align: center;
 }
 
+.animate__fadeIn{
+    --animate-duration: 1.7s;
+}
+
 @media screen and (max-width:380px) {
     .section__h2::before{
         content: "";
